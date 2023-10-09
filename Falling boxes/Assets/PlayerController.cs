@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour {
         get
         {
             // TODO: Fix this
-            return false;
+            return Input.GetKeyUp(KeyCode.RightArrow);
         }
     }
 
@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour {
         get
         {
             // TODO: Fix this
-            return false;
+            return Input.GetKeyUp(KeyCode.LeftArrow);
         }
     }
 
@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour {
         get
         {
             // TODO: Fix this
-            return false;
+            return Input.GetKeyUp(KeyCode.DownArrow);
         }
     }
 
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour {
         get
         {
             // TODO: Fix this
-            return false;
+            return Input.GetKeyUp(KeyCode.UpArrow);
         }
     }
 

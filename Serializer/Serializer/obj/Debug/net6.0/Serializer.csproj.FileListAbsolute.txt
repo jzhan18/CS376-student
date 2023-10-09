@@ -1,0 +1,11 @@
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\bin\Debug\net6.0\Serializer.deps.json
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\bin\Debug\net6.0\Serializer.dll
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\bin\Debug\net6.0\Serializer.pdb
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.GeneratedMSBuildEditorConfig.editorconfig
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.AssemblyInfoInputs.cache
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.AssemblyInfo.cs
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.csproj.CoreCompileInputs.cache
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.dll
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\refint\Serializer.dll
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\Serializer.pdb
+g:\GameDevelopmentWorkSpace\CS376-student\Serializer\Serializer\obj\Debug\net6.0\ref\Serializer.dll
