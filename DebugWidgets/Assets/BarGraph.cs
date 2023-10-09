@@ -47,7 +47,7 @@ public class BarGraph : MonoBehaviour
     void Start()
     {
         // TODO: Set the text to the name of this game object
-        
+        Text.text = name;
         
         // This sets width to the width of the widget on screen
         var rectTransform = (RectTransform)transform;
@@ -55,6 +55,9 @@ public class BarGraph : MonoBehaviour
 
         // TODO: If we're going to display signed numbers, then move the bar to the middle of the widget
         // and set signedDisplay to true.
+        BarTransform.position = new Vector3(width/2.0f, 0, 0);
+        signedDisplay = true;
+
         //
         // You can figure out if we're displaying signed numbers by looking at Min and/or Max.
         // Do they allow for the value being negative?
@@ -78,15 +81,15 @@ public class BarGraph : MonoBehaviour
         // If it's out of range, display it in red
         // Otherwise, use green for positive values and blue for negative ones
         var color = Color.green;
-        
+
         // TODO: if value is out of range (less than Min, greater than Max),
         // then move it in range (set it to Min/Max) so the bar doesn't draw
         // outside the widget.
 
         // TODO: Call SetWidthPercent to change the width of the bar and set its color
-        
+        SetWidthPercent(1.0f, color);
         // TODO: Update the text to read: {name} : {value}
-        
+        Text.name = value.ToString();
     }
 
     /// <summary>
@@ -100,12 +103,13 @@ public class BarGraph : MonoBehaviour
     public void SetWidthPercent(float value, Color c)
     {
         // TODO: Set the color of the bar to c
-        
+        BarImage.color = c;
 
         // TODO: Change BarTransform.localScale so that its x component is scaled by value.
         // If we're using signedDisplay, then we also want to cut the scale by a half so we can 
         // have half the widget for positive values and half for negative ones.
         // Leave the localScale's y component as is.
+        
         
     }
 
